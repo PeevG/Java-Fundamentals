@@ -7,8 +7,6 @@ public class PrintAndSum {
         int input = Integer.parseInt(scanner.nextLine());
         int output = Integer.parseInt(scanner.nextLine());
         int sum = 0;
-
-
         for (int i = input; i <= output; i++) {
             System.out.print(i + " ");
             sum += i;
